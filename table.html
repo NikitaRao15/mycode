@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tables</title>
+    <!-- Internal Css:-->
+    <style>
+        table {
+            border: 5px solid rgb(76, 59, 108);
+            background-color: pink;
+            color: rgb(178, 219, 65);
+            text-align: center;
+            font-size: 20px;
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            border: 3px dashed green;
+
+            border-spacing: 0px;
+        }
+
+        /* class concept  */
+        .xyz {
+            border: 3px dotted black;
+            color: blueviolet;
+
+        }
+
+        /* id concept  */
+        #new {
+            background-color: aqua;
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- table :-->
+    <table style="width:100%;">
+        <caption>Student Information</caption>
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Roll_NO</th>
+            <th rowspan="2">Branch</th>
+            <th rowspan="2">Subject</th>
+        </tr>
+        <tr>
+            <th class="xyz">First_Name</th>
+            <th class="xyz">Last_Name</th>
+        </tr>
+        <tr>
+            <td>Nikita</td>
+            <td>Rao</td>
+            <td>44</td>
+            <td>AI</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>Vanshika</td>
+            <td>Jindal</td>
+            <td>32</td>
+            <td>AI</td>
+            <td>OOPs</td>
+        </tr>
+        <tr>
+            <td>Kunal</td>
+            <td>Jaiswal</td>
+            <td>14</td>
+            <td>AI</td>
+            <td>Java</td>
+        </tr>
+        <tr id="new">
+            <td>Tanisha</td>
+            <td>Jawale</td>
+            <td>33</td>
+            <td>AI</td>
+            <td>DSA</td>
+        </tr>
+        <tr>
+            <td>Shobhit</td>
+            <td>Singh</td>
+            <td>81</td>
+            <td>AI</td>
+            <td>Python</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
