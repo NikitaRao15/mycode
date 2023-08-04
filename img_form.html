@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with image</title>
+    <style>
+        fieldset {
+            width: 30%;
+            border-radius: 55px;
+            background-color: rgb(101, 115, 161);
+        }
+
+        img {
+            height: 40px;
+            width: 10%;
+            margin-top: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            margin-left: 90px;
+            float: inline-end;
+        }
+
+        input {
+            height: 40px;
+            width: 40%;
+            float: inline-end;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: rgb(174, 192, 206);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="# " method="get" target="_blank">
+        <fieldset>
+
+            <label for="name"><img src="/photos/download (3).png" alt="human_icon"></label>
+            <input id="name" type="text" name="name:" value="" placeholder="Name" size="50">
+
+            <br><br>
+            <label for="mail"><img src="/photos/download.png" alt="mail_icon"></label>
+            <input placeholder="Email ID" id="mail" type="email" name="mail" value="">
+            <br><br>
+            <label for="phn"><img src="/photos/download (1).png" alt="phn_icon"></label>
+            <input id="phn" type="number" placeholder="Phone" name="phone-no" value="" size="10" maxlength="10">
+            <br><br>
+            <label for="pass"><img src="/photos/download (2).png" alt="lock-icon"></label>
+            <input id="pass" type="password" name="pwd" value="" placeholder="Set Password">
+            <br><br>
+            <input type="submit" value="REGISTER" style="margin-left:90px;width:240px; border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;color:rgb(57, 46, 46);
+            margin-bottom: 20px; margin-top: 20px;">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
