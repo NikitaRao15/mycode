@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+        </fieldset>
+        <label for="name">enter your name:</label>
+        <input type="text" id="name" placeholder="enter ur full name" minlength="5" maxlength="90">
+        <br>
+        <br>
+        <input type="submit" value="login">
+        <br>
+        <br>
+
+        <label for="pass">Password:</label>
+
+        <input type="password" id="pass">
+        <br>
+        <br>
+
+        <label for="email">email:</label>
+        <input id="email" type="email">
+        <br>
+        <br>
+        <input type="tel" pattern="[0-9]{5}">
+        <br>
+        <br>
+        <input type="color">
+        <input type="month">
+        <input type="file" multiple accept="image/*"> <!--video/* -->
+        <input type="datetime-local">
+        <input type="hidden">
+        <input type="date" min="2023-07-08" max="2024-05-09">
+        <br>
+
+
+        <label for="male" > Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="fmale" >Fe-Male</label>
+        <input type="radio" id="fmale" name="gender">
+
+
+        <label for="sports" >sports</label>
+        <input type="checkbox" id="sports" value="1">
+
+        <select>
+            <optgroup label="transports">
+            <option>car</option>
+            <option>bus</option>
+            <option value="3" disabled >truck</option>
+            
+            <option>bike</option>
+            </optgroup>
+        </select>
+
+
+
+        <textarea></textarea>
+
+        <br>
+        <br>
+        <input type="image" src="/photos/wp4440163-german-shepherd-dog-wallpapers.jpg" width="100px">
+    </form>
+
+    <!-- required 
+   readonly
+   multiple
+   disabled -->
+</body>
+
+</html>
