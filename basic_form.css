@@ -1,0 +1,20 @@
+
+        fieldset {
+            height: 300px;
+            width: 500px;
+            background-color: rgba(146, 190, 177, 0.842);
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        input {
+            width: 200px;
+            height: 25px;
+            background-color: rgb(47, 46, 54);
+            border-radius: 9px;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: azure;
+            margin-left: 35px;
+        }
+    
