@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    top: 100px;
+    left: 370px;
+    position: relative;
+    width: 100%;
+    border: 3px solid rgb(9, 11, 12);
+    height: 500px;
+    width: 50%;
+    /* margin-left: 50px; */
+    border-radius: 15%;
+    background-color: rgb(180, 190, 205);
+
+}
+
+.mm {
+    top: 100px;
+    left: 200px;
+    position: relative;
+    width: 40%;
+    /* border: 1px solid black;   */
+}
+
+input {
+    float: right;
+    padding-left: 50px;
+    height: 40px;
+    width: 90%;
+    background-color: rgb(39, 4, 6);
+    /* outline: none; */
+}
+
+.fa {
+    background-color: rgb(167, 67, 51);
+    color: rgb(240, 242, 229);
+    font-size: 90px;
+    width: 10%;
+    padding-top: 10px;
+    height: 40px;
+    /* line-height: 80px;*/
+    text-align: center;
+}
+
+#car {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 50px;
+    color: rgb(103, 97, 97);
+    width: 90%;
+    height: 40px;
+    float: right;
+    background-color: rgb(39, 4, 6);
+}
+
