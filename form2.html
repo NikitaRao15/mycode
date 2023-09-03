@@ -5,107 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .outer{
-            top: 100px;
-            left: 370px;
-            position: relative;
-            width: 100%;
-            border:3px solid rgb(9, 11, 12);
-            height:500px;
-            width:50%;
-            /* margin-left: 50px; */
-            border-radius: 15%;
-            background-color: rgb(180, 190, 205);
-            /* padding-left: 2px;
-            margin-bottom:40px; */
-        }
-
-        .mm {
-            top: 100px;
-            left: 200px;
-            position: relative;
-            width: 40%;
-            /* border: 1px solid black;   */
-        }
-
-        input {
-            float: right;
-            padding-left: 50px;
-            height: 40px;
-            width: 90%;
-            background-color: rgb(39, 4, 6);
-            /* outline: none; */
-        }
-
-        .fa {
-            background-color: rgb(167, 67, 51);
-            color: rgb(240, 242, 229);
-            font-size: 90px;
-            width: 10%;
-            padding-top: 10px;
-            height: 40px;
-            /* line-height: 80px;*/
-            text-align: center;
-        }
-        #car{
-            margin-top: 0px;
-            margin-left: 0px;
-            padding-left:50px;
-            color:rgb(103, 97, 97);
-            width:90%;
-            height:40px;
-            float:right;
-            background-color: rgb(39, 4, 6);
-        }
-        
-    </style>
-
+   <link rel="stylesheet" href="form2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="outer">
         <div class="mm">
-        <h1>Sign Up</h1>
-        <p>Please fill in this form to create an account!</p>
-    <hr style="border-width: 2px; border-color:black;">
-    <br>
-    </div>
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account!</p>
+            <hr style="border-width: 2px; border-color:black;">
+            <br>
+        </div>
 
 
-    <div class="mm">
-        <i class="fa fa-user"></i>
-        <input type="text" placeholder="user id">
-    </div>
-    
-    <div class="mm">
-        <i class="fa fa-lock"></i>
-        <input type="password" name="pwd" placeholder="Enter password">
-    </div>
-    <div class="mm">
-        <i class="fa fa-linkedin"></i>
-        <input type="url" name="linkedin_id" placeholder="Enter your LinkedIN url">
-    </div>
-    
-    <div class="mm">
-        <i class="fa fa-car"></i>
-        <select name="fav_car" id="car">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi" >Audi</option>
+        <div class="mm">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="user id">
+        </div>
 
-        </select>
-    </div>
-  <div class="mm">
-    <input type="submit" value="Submit" >
-  </div>
+        <div class="mm">
+            <i class="fa fa-lock"></i>
+            <input type="password" name="pwd" placeholder="Enter password">
+        </div>
+        <div class="mm">
+            <i class="fa fa-linkedin"></i>
+            <input type="url" name="linkedin_id" placeholder="Enter your LinkedIN url">
+        </div>
+
+        <div class="mm">
+            <i class="fa fa-car"></i>
+            <select name="fav_car" id="car">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+
+            </select>
+        </div>
+        <div class="mm">
+            <input type="submit" value="Submit">
+        </div>
     </div>
 </body>
 
